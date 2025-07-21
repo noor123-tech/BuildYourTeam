@@ -32,15 +32,15 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Services */}
+          {/* Resources */}
           <div>
-            <h4 className="text-lg font-bold mb-6">Services</h4>
+            <h4 className="text-lg font-bold mb-6">Resources</h4>
             <ul className="space-y-3 text-background/80">
-              <li><Link to="/get-started" className="hover:text-background transition-colors">Digital Marketing</Link></li>
-              <li><Link to="/get-started" className="hover:text-background transition-colors">Web Development</Link></li>
-              <li><Link to="/get-started" className="hover:text-background transition-colors">Customer Support</Link></li>
-              <li><Link to="/get-started" className="hover:text-background transition-colors">E-commerce</Link></li>
-              <li><Link to="/get-started" className="hover:text-background transition-colors">Sales & CRM</Link></li>
+              <li><Link to="/how-it-works" className="hover:text-background transition-colors">How It Works</Link></li>
+              <li><Link to="/why-us" className="hover:text-background transition-colors">Why Choose Us</Link></li>
+              <li><Link to="/pricing" className="hover:text-background transition-colors">Pricing</Link></li>
+              <li><Link to="/testimonials" className="hover:text-background transition-colors">Success Stories</Link></li>
+              <li><Link to="/contact" className="hover:text-background transition-colors">Get Support</Link></li>
             </ul>
           </div>
           

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { 
   TrendingUp, 
   Code, 
@@ -90,8 +91,8 @@ const Services = () => {
                 ))}
               </ul>
               
-              <Button variant="premium" className="w-full group-hover:bg-gradient-primary group-hover:text-primary-foreground">
-                Find Talent
+              <Button asChild variant="premium" className="w-full group-hover:bg-gradient-primary group-hover:text-primary-foreground">
+                <Link to="/get-started">Find Talent</Link>
               </Button>
             </div>
           ))}
@@ -103,8 +104,8 @@ const Services = () => {
           <p className="text-xl mb-8 text-primary-foreground/90">
             No worries! We have access to professionals in every field imaginable. Just tell us what you're looking for.
           </p>
-          <Button variant="secondary" size="xl">
-            Request Custom Talent
+          <Button asChild variant="secondary" size="xl">
+            <Link to="/get-started">Request Custom Talent</Link>
           </Button>
         </div>
       </div>
