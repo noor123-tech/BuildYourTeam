@@ -218,7 +218,7 @@ const PricingPage = () => {
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
-              <Button variant="outline" size="xl" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              <Button variant="outline" size="xl" className="border-primary-foreground/20 text-primary-foreground bg-primary-foreground text-primary">
                 Schedule Consultation
               </Button>
             </div>

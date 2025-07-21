@@ -24,7 +24,7 @@ const CTA = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
-            <Button asChild variant="outline" size="xl" className="border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+            <Button asChild variant="outline" size="xl" className="border-primary-foreground/20 text-primary-foreground bg-primary-foreground text-primary">
               <Link to="/contact">
                 <MessageCircle className="w-5 h-5" />
                 Schedule Free Consultation
